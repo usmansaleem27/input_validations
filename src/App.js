@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Hooks from './UseState';
+import Map from './Map';
+import Rendered from './Rendered';
+import UseEffect from './UseEffect';
+import ChangeTitle from './ChangeTitle';
+import DataWithInputFields from './DataWithInputFields';
+import Conditions from './Conditions';
+import File from './File';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <Map/> */}
+    {/* <Rendered/> */}
+    {/* <Hooks/> */}
+    {/* <UseEffect/> */}
+    {/* <ChangeTitle/> */}
+    {/* <DataWithInputFields/> */}
+    <Conditions />
+    {/* <File/> */}
+
+    </>
   );
 }
 

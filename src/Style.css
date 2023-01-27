@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+input[type=file] {
+    display: none;
+}
+.choose-btn {
+    border-radius: 2px;
+    margin: 10px;
+    float: left;
+    background: #555;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-family: arial;
+    font-size: 13px;
+}
+.choose-btn:hover {
+    background: #24c7c7;
+}

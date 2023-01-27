@@ -7,6 +7,27 @@
   pointer-events: none;
 }
 
+#forms_validation input{
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.form_error{
+  font-size: 11px;
+  color: red;
+}
+
+.label_forms{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +56,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#data_inputs input{
+  width: 100%;
+  padding: 5px;
+  margin: 10px;
 }
